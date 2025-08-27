@@ -36,7 +36,7 @@ const DashboardPage = () => {
               Create Collection
             </Button>
             {
-              (projects.length > 0 || folders.length) > 0 && (
+              (projects?.length > 0 || folders?.length) > 0 && (
                 <Button onClick={() => setShowNewProjectModal(true)} variant={"primary"} className={"gap-2"} >
                   <Sparkles className='h-5 w-5' />
                   Create Project
@@ -47,7 +47,7 @@ const DashboardPage = () => {
         </div>
         {
           isLoading || isFolderLoading ? <BarLoader width={"100%"} color='white' /> :
-            folders.length > 0 || projects.length > 0 ? (
+            folders?.length > 0 || projects?.length > 0 ? (
               <>
                 <ProjectGrid projects={projects} folders={folders} />
               </>
