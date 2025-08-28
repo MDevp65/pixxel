@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Full Stack AI Image Editor with Next JS, Fabric.js, Tailwind, ImageKit, Shadcn UI 🔥🔥
+## https://pixxel-mse.vercel.app/
+<img width="1470" alt="Landing Page" src="https://github.com/user-attachments/assets/749d1111-d638-4b3d-addb-f5f6a5fc691f" />
 
-## Getting Started
+### Make sure to create a `.env` file with following variables -
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+# Deployment used by `npx convex dev`
+CONVEX_DEPLOYMENT=
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+NEXT_PUBLIC_CONVEX_URL=
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
-## Learn More
+CLERK_JWT_ISSUER_DOMAIN=
 
-To learn more about Next.js, take a look at the following resources:
+# Imagekit
+NEXT_PUBLIC_IMAGEKIT_PUBLIC_KEY=
+NEXT_PUBLIC_IMAGEKIT_URL_ENDPOINT=
+IMAGEKIT_PRIVATE_KEY=
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Unsplash
+NEXT_PUBLIC_UNSPLASH_ACCESS_KEY=
+```
